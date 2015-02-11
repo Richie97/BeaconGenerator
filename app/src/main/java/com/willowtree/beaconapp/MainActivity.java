@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         Beacon beacon = new Beacon.Builder()
-                .setId1("02FC4494-B0D3-43D6-869A-E9841DA77E39")
+                .setId1("02FC4494-B0D3-33D6-869A-E9841DA77E39")
                 .setId2("1071")
                 .setId3("2")
                 .setManufacturer(0x0118)
